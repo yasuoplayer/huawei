@@ -1,0 +1,1135 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	behavior:url(pie/PIE.htc);
+}
+.header
+{
+	width: 100%;
+	height: 106px;
+}
+.header .top
+{
+	height: 30px;
+	width: 100%;
+	background: #222222;
+	clear: both;
+}
+
+.header .top .left
+{
+	display: inline-block;
+	height: 30px;
+	/*background: red;*/
+	line-height: 30px;
+	font-size: 13px;
+	color: white;
+	float: left;
+	margin-left: 130px;
+}
+
+.header .top .left:hover
+{
+	cursor: pointer;
+}
+
+.header .top .right
+{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	font-size: 13px;
+	color: white;
+	float: right;
+	margin-right: 130px;
+}
+
+.header .top .right a
+{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	font-size: 13px;
+	color: white;
+}
+
+.header .top .right .language:hover
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.header .top .right a:hover
+{
+	text-decoration: underline;
+}
+
+.header .content
+{
+	height: 76px;
+	width: 100%;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 2px #ededed;
+	border: 1px solid #ededed;
+	z-index: 5;
+}
+.header .content .icon2
+{
+	font-size: 60px;
+	position: relative;
+	float: left;
+}
+
+.header .content .icon3
+{
+	font-size: 50px;
+	position: relative;
+	float: left;
+	margin-left: 40px;
+	margin-top: 8px;
+}
+.header .content a
+{
+	float: left;
+	margin-left: 130px;
+	padding-top: 10px;
+	margin-top: 10px;
+	font-size: 18px;
+	color: #282828;
+	display: block;
+	width: 200px;
+	height: 50px;
+}
+
+.header .content #w .phone,
+.header .content #w .solution,
+.header .content #w .mall,
+.header .content #w .cloud
+{
+	margin-left: 20px;
+}
+
+.header .content #w .solution
+{
+	width: 180px;
+}
+
+.header .content #w .mall
+{
+	width: 100px;
+}
+.header .content #w .cloud
+{
+	width: 100px;
+	margin-left: 44px;
+}
+
+.header .content #w .cloud .icon4
+{
+	left: 81px;
+	top: 4px;
+}
+
+.header .content #w #search
+{
+	font-size: 30px;
+	position: relative;
+	float: right;
+	margin-right: 130px;
+	top: 15px;
+}
+
+.header .content #w #search:hover
+{
+	cursor: pointer;
+}
+
+.header .content #w .solution
+{
+	border-right: solid 1px #d4d4d4;
+	padding-right: 20px;
+}
+
+
+
+
+.icon4
+{
+	border: #989898 solid 1px;
+	width: 18px;
+	height: 18px;
+	position: relative;
+	z-index: 1;
+	float: left;
+	display: block;
+	top:4px;
+	left: 100px;
+}
+
+.icon4 .box
+{
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	left: 9px;
+	top:-9px;
+	background-color: white;
+	z-index: 2;
+}
+
+.icon4 .box i
+{
+	transform: rotateZ(-45deg);
+	position: relative;
+	left:-5px;
+	top:1px;
+	transition: left 1s,top 1s;
+}
+
+.header .content #w a:hover
+{
+	color: #f66f6a;
+}
+
+.header .content #w a:hover .icon4
+{
+	border: #f66f6a solid 1px;
+}
+
+.header .content #w a:hover .icon4 .box i
+{
+	left:-1px;
+	top:-3px;
+	color: #f66f6a;	
+}
+
+#w
+{
+	width: 1366px;
+	margin: 0 auto;
+}
+
+.main
+{
+	height: 1924px;
+	overflow: hidden;
+	/*background-color:rgba(96,96,96,0.4)*/
+}
+
+.main .type
+{
+	position: relative;
+	width: 220px;
+	height: 16px;
+	left: 130px;
+	color: #000000;
+	top: 24px;
+}
+
+.main .type a
+{
+	color: #000000;
+	text-decoration: underline;
+}
+
+.main h1
+{
+	display: block;
+	text-align: center;
+	position: relative;
+	top: 120px;
+	
+	font-size: 44px;
+}
+
+.main h1 span
+{
+	position: relative;
+	font-size: 13px;
+	color: #808080;
+	float: left;
+	margin-left: 207px;
+	top: 40px;
+}
+
+.main .connect
+{
+	position: relative;
+	top: 220px;
+	left: -103px;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.main .connect i:nth-of-type(1):hover
+{
+	color: red;
+}
+
+.main .connect i:nth-of-type(2):hover
+{
+	color: green;
+}
+
+
+.main .connect i:nth-of-type(3):hover
+{
+	color: blue;
+}
+
+.weixin
+{
+	display: block;
+	text-align: center;
+	width: 300px;
+	height: 350px;
+	position: absolute;
+	transform:  scale(0.7);
+	z-index: 3;
+	float: right;
+	display: none;
+	
+}
+
+.weixin .top
+{
+	width: 300px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 16px;
+	background-color: rgba(96,96,96,0.4);
+}
+
+.weixin .content
+{
+	width: 300px;
+	height: 330px;
+	text-align: center;
+}
+
+.main .article
+{
+	position: relative;
+	height: 1593px;
+	top: 230px;
+	overflow: hidden;
+	padding-left: 130px;
+	padding-right: 130px;
+	text-align: center;
+}
+
+.main .article p
+{
+	font-size: 22px;
+	color: #282828;
+	text-indent: 2em;
+	text-align: left;
+}
+
+.main .article p:nth-child(n+2)
+{
+	margin-top: 30px;
+}
+
+.main .article img
+{
+	margin: 5px 0;
+}
+
+.main .article .connect
+{
+	width: 120px;
+	height: 20px;
+}
+
+.main ul
+{
+	position: relative;
+	left: 130px;
+	display: block;
+	width: 120px;
+	height: 30px;
+	top: 150px;
+}
+
+.main ul li
+{
+	text-align: center;
+	display: block;
+	height: 30px;
+	width: 30px;
+	float: left;
+	line-height: 30px;
+	font-size: 16px;
+	margin-right: 10px;
+	background-color: #282828;
+	color: white;
+	border-radius: 7px;
+}
+.main ul li:nth-child(1):hover
+{
+	background-color: red;
+}
+
+.main ul li:nth-child(2):hover
+{
+	background-color: green;
+}
+
+.main ul li:nth-child(3):hover
+{
+	background-color: blue;
+}
+
+
+
+.foot
+{
+	height: 783px;
+	width: 100%;
+	background-color: #f0f0f0;
+}
+
+.foot .top
+{
+	height: 743px;
+	width: 100%;	
+}
+
+.foot .bottom
+{
+	height: 40px;
+	width: 100%;
+	background-color:#222222;	
+}
+
+.foot .top .content
+{
+	height: 743px;
+	width: 100%;	
+	padding-left: 130px;
+	padding-right: 130px;
+}
+
+.foot .top .content ul li,
+.foot .top .content ul li a
+{
+	color: #222222;
+	font-size: 16px;
+	float: left;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+}
+
+.foot .top .content ul li
+{
+	width: 250px;	
+}
+
+.foot .top .content ul li a
+{
+	display: inline-block;
+}
+
+.foot .top .content ul
+{
+	position: relative;
+	top: 100px;
+	/*left: 100px;*/
+	width: 40px;
+	width: 1200px;
+}
+.foot .top .content ul:nth-of-type(1)
+{
+	top: 50px
+}
+.foot .top .content ul:nth-of-type(n+2)
+{
+	top: 70px
+}
+.foot .top .content ul:nth-of-type(9)
+{
+	top: 90px
+}
+
+.foot .top .content ul:nth-of-type(n+10)
+{
+	top: 110px
+}
+
+.foot .top .content ul:nth-of-type(12)
+{
+	top: 130px
+}
+
+.foot .top .content ul:nth-of-type(n+13)
+{
+	top: 150px
+}
+
+.foot .top .content ul:nth-of-type(1) li a,
+.foot .top .content ul:nth-of-type(1) li,
+.foot .top .content ul:nth-of-type(9) li a,
+.foot .top .content ul:nth-of-type(9) li,
+.foot .top .content ul:nth-of-type(12) li a,
+.foot .top .content ul:nth-of-type(12) li
+{
+	color: #282828;
+	font-size: 24px;	
+}
+
+.foot .top .content ul li a:hover
+{
+	text-decoration: underline;
+}
+
+.foot .top .content ul:nth-of-type(1) li a i
+{
+	position: relative;
+	transition: 0.5s;
+	left: 0px;
+}
+.foot .top .content ul:nth-of-type(1) li a:hover i
+{
+	left: 5px;
+}
+
+.foot .top .content ul li a .icon4
+{
+	position: relative;
+	float: right;
+	margin-right: 220px;
+	margin-top: -36px;
+	display: none;
+}
+
+.foot .top .content ul li a .icon4 .box
+{
+	background-color: #f0f0f0;
+}
+
+.foot .top .content ul li a .icon4 .box i
+{
+	font-size: 5px;
+	left: -5px;
+	top: -7px;
+}
+.foot .top .content ul li a:hover .icon4
+{
+	display: block;
+}
+
+.foot .top .content .connect
+{
+	position: relative;
+	left: 23px;
+	top: 33px;
+	font-size: 20px;
+}
+
+.foot .top .content .connect tr td i:hover
+{
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+.foot .top .content #wx
+{
+	position: absolute;
+	width: 258px;
+	height: 288px;
+	display: none ;
+	right: 100px;
+}
+.foot .top .content #wx .top1
+{
+	width: 100%;
+	height: 30px;
+	background-color: rgba(96,96,96,0.8);
+	text-align: center;
+	color: white;
+}
+
+
+.foot .top .content #wx .bg
+{
+	background: url(../img/hw_408955.jpg);
+	width: 258px;
+	height: 258px;
+}
+
+.foot .top .content .connect tr td i[id="show"]:hover+#wx
+{
+	display: block;
+}
+
+.foot .bottom .content
+{
+	height: 100%;
+	padding-left: 130px;
+	padding-right: 130px;
+}
+
+.foot .bottom .content span
+{
+	display: block;
+	float: left;
+	color: white;
+	font-size: 16px;
+	line-height: 40px;
+	height: 40px;
+	width: 400px;
+}
+
+.foot .bottom .content ul
+{
+	display: block;
+	height: 40px;
+	width: 300px;
+	float: right;
+}
+
+.foot .bottom .content ul li
+{
+	display: block;
+	float: right;
+	width: 100px;
+	height: 40px;
+	border-left: 1px solid white;
+	overflow: hidden;	
+}
+.foot .bottom .content ul li:nth-child(3)
+{
+	border-left: none;
+}
+
+.foot .bottom .content ul li a
+{
+	position: relative;
+	display: block;
+	width: 100px;
+	height: 40px;
+	color: white;
+	font-size: 16px;
+	line-height: 16px;	
+	text-align: center;	
+	top: 12px;
+}
+.foot .bottom .content ul li a:hover
+{
+	text-decoration: underline;
+}
+
+.service
+{
+	width: 100%;
+	height: 436px;
+	background-color: #f5f5f5;
+	position: fixed;
+	z-index: 10;
+	opacity: 0;
+	top: 30px;
+	transition: all 0.4s;
+	display: none;
+}
+
+.service .top
+{
+	height: 66px;
+	border-bottom: 1px #c7c7c7 solid;
+	text-align: center;
+}
+
+.service .top span
+{
+	display: inline-block;
+	color: #777777;
+	height: 66px;
+	line-height: 66px;
+	font-size: 18px;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+}
+.service .top span:nth-child(2)
+{
+	border-bottom: 2px red solid;	
+}
+
+.service .top span:hover
+{
+	border-bottom: 2px red solid;
+	cursor: pointer;	
+}
+
+.service .content
+{
+	height: 370px;
+	width: 100%;
+	padding-left: 130px;
+	padding-right: 130px;
+}
+.service .content>div
+{
+	position: absolute;
+	height: 370px;
+	width: 1106px;	
+}
+
+.service .content .econtent
+{
+	display: none;
+}
+
+.service .content .econtent>div
+{
+	height: 370px;
+	width: 366px;
+	float: left;
+}
+
+.service .content .econtent .left
+{
+	text-align: center;
+}
+
+.service .content .econtent .left .img
+{
+	height: 220px;
+	width: 220px;
+	margin: 48px auto 20px;
+	background: url(../img/nav-contact_02.png);
+	border-radius: 10px;
+}
+
+.service .content .econtent .left span
+{
+	position: relative;
+	color: #282828;
+	font-size: 18px;
+}
+
+.service .content .econtent .center h2
+{
+	float: left;
+	margin-top: 48px;
+	margin-bottom: 20px;
+}
+
+.service .content .econtent .center h2:nth-child(2)
+{
+	margin-left: 123px;
+}
+
+.service .content .econtent .center ul
+{
+	height: 180px;
+	width: 180px;
+	float: left;
+}
+.service .content .econtent .center ul:nth-child(2)
+{
+	clear: both;
+}
+
+.service .content .econtent .center ul li
+{
+	display: block;
+	height: 40px;
+	width: 180px;
+}
+
+.service .content .econtent .center ul li a
+{
+	display: block;
+	height: 40px;
+	width: 180px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #282828;
+}
+
+.service .content .econtent .center ul li a:hover
+{
+	text-decoration: underline;
+}
+
+.service .content .econtent .center ul li .red
+{
+	color: red;
+}
+
+.service .content .econtent .center p
+{
+	position: absolute;
+	display: block;
+	top: 375px;
+	height: 30px;
+	line-height: 30px;
+	color: #282828;
+	font-size: 16px;
+	width: 100%;
+}
+.service .content .econtent .center p a
+{
+	color: red;
+}
+.service .content .econtent .center p:hover
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.service .content .econtent .right
+{
+	background-color: #ebebeb;
+	padding-left: 30px;
+}
+
+.service .content .econtent .right h2
+{
+	margin-top: 48px;
+	margin-bottom: 20px;	
+}
+.service .content .econtent .right  ul
+{
+	height: 180px;
+	width: 180px;
+	color: red;
+}
+
+.service .content .econtent .right ul li
+{
+	display: block;
+	height: 40px;
+	width: 180px;
+}
+
+.service .content .econtent .right ul li a
+{
+	display: block;
+	height: 40px;
+	width: 180px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #282828;
+}
+
+.service .content .econtent .right ul li a:hover
+{
+	text-decoration: underline;
+}
+
+.service .content .econtent .right p
+{
+	position: absolute;
+	display: block;
+	top: 375px;
+	height: 30px;
+	line-height: 30px;
+	color: #282828;
+	font-size: 16px;
+	width: 100%;
+}
+.service .content .econtent .right p a
+{
+	color: red;
+}
+.service .content .econtent .right p:hover
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+.service .content .ocontent .left
+{
+	height: 370px;
+	width: 732px;
+	float: left;
+}
+
+.service .content .ocontent .left h2
+{
+	float: left;
+	margin-top: 48px;
+	margin-bottom: 20px;
+	display: block;
+	width: 240px;
+	height: 50px;
+	line-height: 50px;
+}
+
+.service .content .ocontent .left ul
+{
+	display: block;
+	width: 240px;
+	height: 50px;	
+	float: left;
+}
+.service .content .ocontent .left ul li
+{
+	height: 40px;
+	width: 100%;
+}
+
+.service .content .ocontent .left ul li a
+{
+	height: 40px;
+	width: 100%;
+	font-size: 16px;
+	color: #282828;
+	line-height: 40px;
+}
+
+.service .content .ocontent .left ul li a:hover
+{
+	text-decoration: underline;
+}
+
+.service .content .ocontent .left ul li .red
+{
+	color: red;
+}
+
+.service .content .ocontent .left p
+{
+	position: absolute;
+	display: block;
+	bottom: 20px;
+	height: 30px;
+	line-height: 30px;
+	color: #282828;
+	font-size: 16px;
+	width: 100%;
+}
+.service .content .ocontent .left p a
+{
+	color: red;
+}
+.service .content .ocontent .left p:hover
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.service .content .ocontent .right
+{
+	height: 370px;
+	width: 366px;
+	float: left;	
+	background-color: #ebebeb;
+	padding-left: 30px;
+}
+
+.service .content .ocontent .right h2
+{
+	margin-top: 48px;
+	margin-bottom: 20px;	
+}
+.service .content .ocontent .right  ul
+{
+	height: 180px;
+	width: 180px;
+	color: red;
+}
+
+.service .content .ocontent .right ul li
+{
+	display: block;
+	height: 40px;
+	width: 180px;
+}
+
+.service .content .ocontent .right ul li a
+{
+	display: block;
+	height: 40px;
+	width: 180px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #282828;
+}
+
+.service .content .ocontent .right ul li a:hover
+{
+	text-decoration: underline;
+}
+
+.service .content .ocontent .right p
+{
+	position: absolute;
+	display: block;
+	bottom: 20px;
+	height: 30px;
+	line-height: 30px;
+	color: #282828;
+	font-size: 16px;
+	width: 100%;
+}
+.service .content .ocontent .right p a
+{
+	color: red;
+}
+.service .content .ocontent .right p:hover
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.service .content .ocontent
+{
+	display: none;
+}
+
+
+
+
+
+.service .content .ccontent .left
+{
+	height: 370px;
+	width: 732px;
+	float: left;
+}
+
+.service .content .ccontent .left h2
+{
+	float: left;
+	margin-top: 48px;
+	margin-bottom: 20px;
+	display: block;
+	width: 240px;
+	height: 50px;
+	line-height: 50px;
+}
+
+.service .content .ccontent .left ul
+{
+	display: block;
+	width: 240px;
+	height: 50px;	
+	float: left;
+}
+.service .content .ccontent .left ul li
+{
+	height: 40px;
+	width: 100%;
+}
+
+.service .content .ccontent .left ul li a
+{
+	height: 40px;
+	width: 100%;
+	font-size: 16px;
+	color: #282828;
+	line-height: 40px;
+}
+
+.service .content .ccontent .left ul li a:hover
+{
+	text-decoration: underline;
+}
+
+.service .content .ccontent .left ul li .red
+{
+	color: red;
+}
+
+.service .content .ccontent .left p
+{
+	position: absolute;
+	display: block;
+	bottom: 20px;
+	height: 30px;
+	line-height: 30px;
+	color: #282828;
+	font-size: 16px;
+	width: 100%;
+}
+.service .content .ccontent .left p a
+{
+	color: red;
+}
+.service .content .ccontent .left p:hover
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.service .content .ccontent .right
+{
+	height: 370px;
+	width: 366px;
+	float: left;	
+	background-color: #ebebeb;
+	padding-left: 30px;
+}
+
+.service .content .ccontent .right h2
+{
+	margin-top: 48px;
+	margin-bottom: 20px;	
+}
+.service .content .ccontent .right  ul
+{
+	height: 180px;
+	width: 180px;
+	color: red;
+}
+
+.service .content .ccontent .right ul li
+{
+	display: block;
+	height: 40px;
+	width: 180px;
+}
+
+.service .content .ccontent .right ul li a
+{
+	display: block;
+	height: 40px;
+	width: 180px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #282828;
+}
+
+.service .content .ccontent .right ul li a:hover
+{
+	text-decoration: underline;
+}
+
+.service .content .ccontent .right p
+{
+	position: absolute;
+	display: block;
+	bottom: 20px;
+	height: 30px;
+	line-height: 30px;
+	color: #282828;
+	font-size: 16px;
+	width: 100%;
+}
+.service .content .ccontent .right p a
+{
+	color: red;
+}
+.service .content .ccontent .right p:hover
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+
+
+
+

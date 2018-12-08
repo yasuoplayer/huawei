@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" content="IE=edge,chrome=1" />
+		<title>登录 - 华为</title>
+		<meta http-equiv="X-UA-Compatible" />
+		<link rel="stylesheet" href="css/login.css" />
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+		<script type="text/javascript" src="js/login.js" ></script>
+		<!--[if lt IE 9]><script src="http://cdn.bootcss.com/html5shiv/3.7/html5shiv.js"></script><![endif]-->		
+		<!--[if lte IE 8]><script src="http://cdn.bootcss.com/selectivizr/1.0.2/selectivizr.js"></script><![endif]-->	
+		<!--[if IE]>
+<style type="text/css">img, #testdiv, .testbox{behavior: url(http://yourdomain.com/js/ie-css3.htc);}
+</style>
+<![endif]-->
+	</head>
+	<body>
+		<div class="top">
+			<img src="img/huawei_logo.png" />
+		</div>
+		<form action="" method="post" onsubmit="return false;">
+			<div class="content">
+				<h1>登录</h1>
+				<span class="tittle1">手机号/邮箱<em class="red">*</em></span>
+				<input type="text" name="account" id="account" placeholder="请输入手机号/邮箱"/>
+				<span class="tips1"></span>
+				
+				<span class="tittle2">密码<em class="red">*</em></span>
+				<input type="password" name="psw" id="psw" placeholder="请输入密码"/>
+				<span class="tips2"></span>
+				<a href="#" class="findpsw">忘记密码</a>
+				<input type="submit" value="登录" onclick="check();"/>
+				<a class="register" href="#">立即注册<i class="fa fa-angle-right"></i></a>
+				<hr />
+				<span class="otherways">通过其他方式登录</span>
+				<div class="ways">
+					<div class="wx"><i class="fa fa-weixin"></i></div>
+					<div class="wb"><i class="fa fa-weibo"></i></div>
+				</div>
+				<div class="help">
+					<div class="helplg">?</div>
+					<a class="morehelp" href="#">获取更多帮助？</a>
+				</div>
+			</div>			
+		</form>
+	</body>
+</html>
